@@ -1,0 +1,55 @@
+.GrandBandeau {
+    height:150;
+    width:700;
+    overflow:hidden;
+    position: fixed;
+    background-repeat:no-repeat;
+    opacity:0.8;
+    border-radius: 4px;
+
+}
+
+.PetitBandeau {
+    height:150;
+    width:350;
+    overflow:hidden;
+    position: fixed;
+    background-repeat:no-repeat;
+    opacity:0.8;
+    border-radius: 4px;
+
+}
+
+.BandeauCont {
+   height:100%;
+   position: relative;  
+}
+
+.BandeauText {
+    width:100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute; 
+    bottom: 0;
+    padding: 4 4 4 4;
+
+}
+
+.BandeauText1 {
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.BandeauText2 {
+    color: white;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.GrandBandeau:hover, .PetitBandeau:hover {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 0px 2px orange;
+    -moz-box-shadow: 0px 0px 0px 2px orange;
+    box-shadow: 0px 0px 0px 2px orange;
+
+}
